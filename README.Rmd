@@ -5,6 +5,8 @@ output:
     variant: gfm
 ---
 
+# Amex Scraper
+
 A small library to scrape data from the Amex GUI, to take care of your finances.
 
 ```{r setup, include=FALSE}
