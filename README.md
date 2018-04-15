@@ -1,3 +1,5 @@
+# Amex Scraper
+
 A small library to scrape data from the Amex GUI, to take care of your
 finances.
 
@@ -78,4 +80,4 @@ ggplot(tbl %>%
   scale_y_continuous(labels = scales::dollar_format(prefix = "£"))
 ```
 
-![](README_files/figure-gfm/plot_transactions-1.png)<!-- -->
+<img src="README_files/figure-gfm/plot_transactions-1.png" style="display: block; margin: auto;" />

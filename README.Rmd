@@ -70,7 +70,7 @@ scrappers::get_transaction_table(client) %>%
   mutate(Date = Date %>% as.Date(format = "%d %b %y")) -> tbl
 ```
 
-```{r plot_transactions}
+```{r plot_transactions, fig.align='center', fig.height=6, fig.width=10}
 ggplot(tbl %>% 
          filter(amount > 0) %>% 
          arrange(Date) %>% 
