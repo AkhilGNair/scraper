@@ -1,0 +1,14 @@
+Package: scrapers
+Title: Scrapes Amex data with a user login using RSelenium
+Version: 1.0.0
+Authors@R: person("Akhil", "Nair", email = "yup.im.aki@gmail.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.4.3)
+Imports:
+  rvest,
+  xml2,
+  RSelenium
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
